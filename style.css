@@ -169,26 +169,17 @@ header {
         padding: 3rem 2rem;
         border-radius: .5rem;
         text-align: center;
-<<<<<<< HEAD
         cursor: pointer;
         transition: .2s linear;
     }
-=======
-        cursor : pointer;
-        transition: .2s linear;
-    }
- 
->>>>>>> f1ee947a76c1c98ba6fcc33b8caf6d252ba3158b
+
+
         .features .box-container .box:hover {
             transform: scale(1.1);
             background: #c2e59c;
             background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
             background: linear-gradient(to right, #64b3f4, #c2e59c);;
         }
-<<<<<<< HEAD
-=======
-        
->>>>>>> f1ee947a76c1c98ba6fcc33b8caf6d252ba3158b
 
         .features .box-container .box img {
             height: 15rem;
@@ -330,13 +321,10 @@ header {
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
         flex: 1 1 30rem;
         border-radius: .5rem;
-<<<<<<< HEAD
         cursor: pointer;
         transition: all 0.3s ease;
-=======
         cursor : pointer;
         transition : all 0.3s ease;
->>>>>>> f1ee947a76c1c98ba6fcc33b8caf6d252ba3158b
     }
         .review .box-container .box:hover {
             background: #c2e59c;
@@ -396,18 +384,10 @@ header {
         border-radius: .5rem;
         text-align: center;
         padding-bottom: 3rem;
-<<<<<<< HEAD
         cursor: pointer;
         transition: all 0.3s ease;
     }
 
-
-=======
-        cursor : pointer;
-        transition : all 0.3s ease;
-    }
-
->>>>>>> f1ee947a76c1c98ba6fcc33b8caf6d252ba3158b
         .pricing .box-container .box:hover {
             background: #c2e59c;
             background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
