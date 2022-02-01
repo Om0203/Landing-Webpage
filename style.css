@@ -169,8 +169,15 @@ header {
         padding: 3rem 2rem;
         border-radius: .5rem;
         text-align: center;
+        cursor: pointer;
         transition: .2s linear;
     }
+        .features .box-container .box:hover {
+            transform: scale(1.1);
+            background: #c2e59c;
+            background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+            background: linear-gradient(to right, #64b3f4, #c2e59c);;
+        }
 
         .features .box-container .box img {
             height: 15rem;
@@ -312,7 +319,15 @@ header {
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
         flex: 1 1 30rem;
         border-radius: .5rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
     }
+        .review .box-container .box:hover {
+            background: #c2e59c;
+            background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+            background: linear-gradient(to right, #64b3f4, #c2e59c);
+            transform:scale(1.05);
+        }
 
         .review .box-container .box .fa-quote-right {
             position: absolute;
@@ -360,15 +375,21 @@ header {
         margin: 1rem;
         padding: 1rem;
         background: #fff;
-        border: .1rem solid rgba(0,0,0,.2);
+        border: .2rem solid rgba(0,0,0,.2);
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
         border-radius: .5rem;
         text-align: center;
         padding-bottom: 3rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
     }
 
-        .pricing .box-container .box:nth-child(2),
+
         .pricing .box-container .box:hover {
+            background: #c2e59c;
+            background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+            background: linear-gradient(to right, #64b3f4, #c2e59c);
+            transform: scale(1.05);
             border: .2rem solid var(--pink);
         }
 
@@ -519,6 +540,7 @@ header {
             }
 
                 .footer .box-container .box a:hover {
+                    color: var(--pink);
                     text-decoration: underline;
                 }
 
@@ -567,15 +589,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-/* media queries  */
 
 @media (max-width:1200px) {
 
